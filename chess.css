@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin: 50px;
+}
+table{
+    border:1px solid black;
+    width: 500px;
+    height: 500px;
+}
+  tr:nth-child(even) td:nth-child(odd)
+  tr:nth-child(odd) td:nth-child(odd) {
+    background-color: tan
+  }
+ td:hover{
+    background-color: brown;
+ }
+
+.black{
+    background-color: black;
+    width: 50px ;
+}
+.white{
+    color: white;
+}
